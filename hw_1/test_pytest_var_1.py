@@ -1,5 +1,4 @@
 import pytest
-# from allpairspy import AllPairs
 from var_2 import calculation_Premium
 
 

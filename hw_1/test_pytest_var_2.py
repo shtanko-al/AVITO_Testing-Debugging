@@ -1,5 +1,4 @@
 import pytest
-# from allpairspy import AllPairs
 from var_2 import calculation_Premium, calculation_level_mod, calculation_premium_mod
 
 
@@ -106,21 +105,6 @@ def test_perf_premium_mod_positive(perf_review, expect):
 ])
 def test_positive(salary, level, perf_review, expect):
     assert calculation_Premium(salary, level, perf_review) == expect
-
-
-# parameters = [
-#     [110000],
-#     [7, 10, 17],
-#     [0, 1.5, 2.3, 3.3, 3],
-#     [27000]
-# ]
-
-
-# @pytest.mark.parametrize('salary, level, perf_review, expect', [
-#     values for values in AllPairs(parameters)
-# ])
-# def test_allpairs(salary, level, perf_review, expect):
-#     assert calculation_Premium(salary, level, perf_review) == expect
 
 
 if __name__ == '__main__':

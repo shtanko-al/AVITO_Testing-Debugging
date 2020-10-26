@@ -26,9 +26,8 @@ def calculation_premium_mod(perf_review):
     min_perf_review = 1
     max_perf_review = 5
 
-    if not(type(perf_review) == int or type(perf_review) == float):
+    if not (type(perf_review) == int or type(perf_review) == float):
         raise TypeError("perf_review должен быть численным значением")
-
 
     premium_mod = 0
     if perf_review < min_perf_review:
