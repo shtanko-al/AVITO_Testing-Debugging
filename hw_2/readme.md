@@ -7,4 +7,4 @@
  ---
 
 ## Что получилось:
-Таблица функциональностей [ссылка на Google Tables](https://docs.google.com/spreadsheets/d/1Bm-_Awc9iexqrPf7hUJHr1OJKnWh8eDuGtTxjH8XvlM/edit?usp=sharing "таблица функциональностей").
+Таблица функциональностей [ссылка на Google Tables](https://drive.google.com/file/d/1gLllsaRvPGtzBLFmF_OhzXes3C2yfN5b/view?usp=sharing "таблица функциональностей").
